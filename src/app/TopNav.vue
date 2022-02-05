@@ -22,7 +22,7 @@
           {{ username }}
         </b-dropdown-text>
         <b-dropdown-divider />
-        <b-dropdown-item :href="`${server}/settings.view`" target="_blank">
+        <b-dropdown-item :href="`${server}/index.view?main=settings.view`" target="_blank">
           Server settings
         </b-dropdown-item>
         <b-dropdown-item-button @click="scan">
